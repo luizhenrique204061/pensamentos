@@ -12,8 +12,8 @@
 <img src="recursos/imagens/brain.png" alt="Logo de rede de pensamentos">
 
 <h2>#pensamentos</h2>
-<a href="pessoas/acessar.php">Acessar minha conta</a>
-<a href="pessoas/cadastrar.php">Cadastrar conta</a>
+<a class="links" id="link-acessar" href="pessoas/acessar.php">Acessar minha conta</a>
+<a class="links" id="link-cadastrar" href="pessoas/cadastrar.php">Cadastrar conta</a>
     
 </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Pensamentos</title>
     <link rel="shortcut icon" href="../recursos/imagens/brain.png" type="image/x-icon">
     <link rel="stylesheet" href="../recursos/estilos/geral.css">
+    <link rel="stylesheet" href="../recursos//estilos//pessoas.css">
 </head>
 <body>
 
@@ -13,14 +14,15 @@
 
 <h2>#pensamentos</h2>
 
-<h4>Acesse sua conta</h4>
+
 <form action="">
+    <h4>Acesse sua conta</h4>
     <input type="email" placeholder="E-mail">
     <br>
     <input type="password" placeholder="Senha">
     <br>
 
-    <input type="submit" value="Acessar minha conta">
+    <input class="submits" id="submit-acessar" type="submit" value="Acessar minha conta">
 </form>
 
 <a href="..">Voltar para o início</a>

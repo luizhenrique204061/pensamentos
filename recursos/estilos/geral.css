@@ -2,8 +2,44 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: #444;
+}
+
+a {
+    color: #2980b9;
 }
 
 img {
     height: 200px;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.links:hover {
+    opacity: 0.8;
+}
+
+#link-acessar {
+    background-color: #3498db;
+}
+
+
+#link-cadastrar {
+    background-color: #439c3b;
 }

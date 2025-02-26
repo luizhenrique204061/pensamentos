@@ -1,0 +1,30 @@
+form {
+    margin: 16px;
+    text-align: center;
+}
+
+input {
+    padding: 6px;
+    margin: 3px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #444;
+}
+
+.submits {
+    color: white;
+    border: none;
+}
+
+.submits:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#submit-acessar {
+    background-color: #3498db;
+}
+
+#submit-cadastrar {
+    background-color: #439c3b;
+}

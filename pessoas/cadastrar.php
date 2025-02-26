@@ -6,6 +6,7 @@
     <title>Pensamentos</title>
     <link rel="shortcut icon" href="../recursos/imagens/brain.png" type="image/x-icon">
     <link rel="stylesheet" href="../recursos/estilos/geral.css">
+    <link rel="stylesheet" href="../recursos//estilos/pessoas.css">
 </head>
 <body>
 
@@ -22,7 +23,7 @@
     <input type="password" placeholder="Senha">
     <br>
 
-    <input type="submit" value="Cadastrar conta">
+    <input class="submits" id="submit-cadastrar" type="submit" value="Cadastrar conta">
 </form>
 
 <a href="..">Voltar para o início</a>
