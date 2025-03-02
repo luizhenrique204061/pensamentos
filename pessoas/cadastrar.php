@@ -1,3 +1,22 @@
+<?php
+    include '../recursos/conexao.php';
+
+    /*
+    //Teste para verificar se o formulário foi enviado
+    if (isset($_POST['nome'], $_POST['email'], $_POST['senha'])) {
+        echo $_POST['nome'] . '<br>';
+        echo $_POST['email'] . '<br>';
+        echo $_POST['senha'] . '<br>';
+    } else {
+        echo 'Não o formulário';
+    }
+    */
+
+    if (isset($_POST['nome'], $_POST['email'], $_POST['senha'])) {
+        $conexao -> query("INSERT INTO pessoa (nome, email, senha) VALUES('$_POST[nome]', '$_POST[email]', '$_POST[senha]')");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -15,12 +34,12 @@
 <h2>#pensamentos</h2>
 
 <h4>Cadastre sua conta</h4>
-<form action="">
-    <input type="text" placeholder="Nome">
+<form action="cadastrar.php" method="POST">
+    <input type="text" name="nome" placeholder="Nome" required>
     <br>
-    <input type="email" placeholder="E-mail">
+    <input type="email" name="email" placeholder="E-mail" required>
     <br>
-    <input type="password" placeholder="Senha">
+    <input type="password" name="senha" placeholder="Senha" required>
     <br>
 
     <input class="submits" id="submit-cadastrar" type="submit" value="Cadastrar conta">
